@@ -1,0 +1,64 @@
+.rates {
+    margin-bottom: 61px;
+}
+.rates__list {
+    display: flex;
+    justify-content: space-around;
+}
+.rates__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 41px 30px 48px 30px;
+}
+.rates__item:hover {
+    border: 1px solid #e8e9ed;
+    border-radius: 5px;
+}
+.rates__symbol {
+    width: 68px;
+    height: 68px;
+    background-color: #4b73b5;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    position: relative;
+}
+.rates__pic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.rates__name { 
+    color: #212121;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 26px;
+}
+.rates__desc {
+    text-align: center;
+}
+.rates__desc, .rates__benefits {
+    line-height: 2em;
+    color: #221f1f;
+}
+.rates__benefits {
+    margin-bottom: 35px;
+}
+.rates__benefits--list--decor li::before {
+    content: "\2022";
+    margin-right: 15px;
+}
+.rates__price {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 300;
+}
+.rates__price:before {
+    content: '$';
+    color: #202020;
+    font-size: 35px;
+}

@@ -1,0 +1,13 @@
+header {
+    background: #4b73b5;
+    margin-bottom: 46px;
+}
+
+.header__container {
+    min-width: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

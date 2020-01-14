@@ -1,0 +1,20 @@
+.breadcrumbs {
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 28px;
+    font-family: "Roboto - Light Italic";
+    font-size: 14px;
+}
+.breadcrumbs__list {
+display: flex;
+}
+.breadcrumbs__item:before {
+    content: "/";
+}
+.breadcrumbs__item:first-child::before{
+    content: "";
+}
+.breadcrumbs__link--active{
+    text-decoration: none;
+    color: #221f1f;
+}
